@@ -18,50 +18,56 @@ struct cmp{
 }; 
 
 int minRefuelStops(int target, int startFuel, vector<vector<int>>& stations) {
-	vector<int> virtual_station = {target,0};
-    stations.push_back(virtual_station);
-    
-    int currPosi = 0,currFuel = startFuel;
-    int count = 0;
-    priority_queue<vector<int>,vector<vector<int> >,cmp> q;
-    for(int i=0;i<stations.size();i++){
-        vector<int> tmp_station = stations[i];
-        
-        while(currFuel<tmp_station[0]-currPosi && !q.empty()){
-            vector<int> max_station = q.top();
-            q.pop();
-            currFuel += max_station[1];
-            count ++;
-        }
-        
-        if(currFuel<tmp_station[0]-currPosi){
-            return -1;
-        }
-        
-        
-        currFuel -= (tmp_station[0] - currPosi);
-        currPosi = tmp_station[0];
-        q.push(tmp_station);
-    }
-    
-    
-    return count;
+ 	int size = stations.size();
+	long long *dp = new long long[size+1];
+	for(int i=0;i<=size;i++){
+	    dp[i] = startFuel;
+	    cout << i << "\t" ;
+	}
+	
+	cout << endl;
+	
+	for(int i=0;i<size;i++){
+	    vector<int> tmp = stations[i];
+	    for(int j=i;j>=0;j--){
+	        if(dp[j]>=tmp[0]){
+	            dp[j+1] = max(dp[j+1],dp[j]+tmp[1]);
+	        }
+	    }
+	    
+	    for(int i=0;i<=size;i++){
+	    	cout << dp[i] << "\t";
+		}
+		cout << endl;
+	}
+	
+	int i = 0;
+	bool flag = false;
+	
+	for(;i<=size;i++){
+	    if(dp[i]>=target){
+	        flag = true;
+	        break; 
+	    }
+	}
+	
+	return flag?i:-1;
 }
 
 int main(){
-	vector<int> station0 {13,21};
-	vector<int> station1 {26,115};
-	vector<int> station2 {100,47};
-	vector<int> station3 {225,99};
-	vector<int> station4 {299,141};
-	vector<int> station5 {444,198};
-	vector<int> station6 {608,190};
-	vector<int> station7 {636,157};
-	vector<int> station8 {647,255};
-	vector<int> station9 {841,123};
+	vector<int> station0 {25,27};
+	vector<int> station1 {36,187};
+	vector<int> station2 {140,186};
+	vector<int> station3 {378,6};
+	vector<int> station4 {492,202};
+	vector<int> station5 {517,89};
+	vector<int> station6 {579,234};
+	vector<int> station7 {673,86};
+	vector<int> station8 {808,53};
+	vector<int> station9 {954,49};
 	vector<vector<int> > stations = {station0,station1,station2,station3,station4,station5,station6,station7,station8,station9};
 	int target = 1000;
-	int startFuel = 299;
+	int startFuel = 83;
 	cout << minRefuelStops(target,startFuel,stations) <<endl;
 	return 0;
 }
