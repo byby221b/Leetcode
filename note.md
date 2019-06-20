@@ -7,7 +7,10 @@
 ## :busstop:TODO
 
 * KMP
+* 背包问题及其变种
 
-## :kissing_smiling_eyes:Knowledge
+## :artificial_satellite:Knowledge
 
 * 闰年：能被4整除且不能被100整数；能被400整除
+
+
