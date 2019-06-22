@@ -2,9 +2,17 @@
 
 using namespace std;
 
+int A = 1606;
+
+class TEST{
+	public:
+		void test(){
+			cout << A << endl;
+		}
+};
+
 int main(){
-	bool a;
-	int b;
-	cout << sizeof(a) << " " << sizeof(b) << endl;
+	TEST test = TEST();
+	test.test();
 	return 0;
 }
