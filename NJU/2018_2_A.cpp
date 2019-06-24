@@ -4,6 +4,7 @@
 	Author: 
 	Date: 24/06/19 11:23
 	Description: 注意递推的思路 
+	据说有可能卡整数？
 */
 
 #include <iostream>
