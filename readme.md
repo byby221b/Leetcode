@@ -11,6 +11,9 @@
 * KMP
 * 背包问题及其变种
 * DP
+  * 最大子段和
+  * 最长递增子序列
+  * 最长公共子序列
 
 ## :artificial_satellite:Knowledge
 
