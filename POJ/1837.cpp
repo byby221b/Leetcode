@@ -32,7 +32,7 @@ int main(){
 //			method[i][j] = 0;
 //		}
 //	}
-	memset(method,0,sizeof(method));
+	memset(method,0,sizeof(method));	
 	method[0][MAGIC] = 1;
 	
 	for(int i=1;i<=G;i++){
