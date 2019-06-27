@@ -18,6 +18,7 @@
 ## :artificial_satellite:Knowledge
 
 * 闰年：能被4整除且不能被100整数；能被400整除
+* 使用BIT时需要特别注意，当*idx*为0时*update*会陷入死循环
 
 ## :kissing_smiling_eyes:Key
 
