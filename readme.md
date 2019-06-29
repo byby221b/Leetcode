@@ -4,7 +4,9 @@
   * 背包问题
 
 		> <del>[POJ-1837](http://exp-blog.com/2018/06/23/pid-882/)</del>
+		> 
 		> <del>[POJ-1276](http://exp-blog.com/2018/06/23/pid-887/) </del>
+		> 
 		> <del>[POJ-1014](http://exp-blog.com/2018/06/25/pid-1168/)</del>
 		
 	* 动态规划
