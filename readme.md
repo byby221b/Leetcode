@@ -1,3 +1,21 @@
+## :bookmark_tabs:Plan
+
+* 动态规划
+  * 背包问题
+
+		> <del>[POJ-1837](http://exp-blog.com/2018/06/23/pid-882/)</del>
+		> <del>[POJ-1276](http://exp-blog.com/2018/06/23/pid-887/) </del>
+		> <del>[POJ-1014](http://exp-blog.com/2018/06/25/pid-1168/)</del>
+		
+	* 动态规划
+	
+	  > <del>[POJ 1018](http://poj.org/problem?id=1018)</del>
+	  >
+	  > <del>POJ 3267</del>
+	  >
+	  > <del>POJ 1260</del>
+
+
 ## :star:*READ*
 
 * [Manacher’s Algorithm](http://articles.leetcode.com/longest-palindromic-substring-part-ii/)
@@ -10,10 +28,17 @@
 
 * KMP
 * 背包问题及其变种
-* DP
+  * 多重背包（二进制拆分）
+* DP  :small_airplane: :small_airplane: :small_airplane: :small_airplane: :small_airplane: :small_airplane:
   * 最大子段和
   * 最长递增子序列
   * 最长公共子序列
+* 最短路  :small_airplane:
+* 并查集  :small_airplane:
+* BFS  :small_airplane: :small_airplane:
+* DFS  :small_airplane:
+* 贪心  :small_airplane:
+* 二叉树遍历  :small_airplane:
 
 ## :artificial_satellite:Knowledge
 
