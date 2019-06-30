@@ -20,6 +20,14 @@
 	  > <span style="color:red">POJ 1015</span>
 	  >
 	  > <del>POJ 3176</del>
+	  >
+	  > <del>POJ 1080</del>
+	  >
+	  > <del>POJ 1159</del>
+	  >
+	  > <del>POJ 2533</del>
+	  >
+	  > <del>POJ 1836</del>
 
 
 ## :star:*READ*
