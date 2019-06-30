@@ -16,6 +16,10 @@
 	  > <del>POJ 3267</del>
 	  >
 	  > <del>POJ 1260</del>
+	  >
+	  > <span style="color:red">POJ 1015</span>
+	  >
+	  > <del>POJ 3176</del>
 
 
 ## :star:*READ*
@@ -30,11 +34,13 @@
 
 * KMP
 * 背包问题及其变种
-  * 多重背包（二进制拆分）
+  * 多重背包
+    * 二进制拆分
+    * O(Vn)解法
 * DP  :small_airplane: :small_airplane: :small_airplane: :small_airplane: :small_airplane: :small_airplane:
   * 最大子段和
-  * 最长递增子序列
-  * 最长公共子序列
+  * 最长递增子序列(LIS)
+  * 最长公共子序列(LCS)
 * 最短路  :small_airplane:
 * 并查集  :small_airplane:
 * BFS  :small_airplane: :small_airplane:
