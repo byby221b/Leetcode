@@ -28,6 +28,30 @@
 	  > <del>POJ 2533</del>
 	  >
 	  > <del>POJ 1836</del>
+	
+* 搜索
+
+  * DFS
+
+    > <del>POJ 2488</del>
+    >
+    > <del>POJ 3083</del>
+    >
+    > <del>POJ 3009</del>
+    >
+    > <del>POJ 1321</del>
+    
+  * BFS
+  
+    > <del>POJ 3278 </del>
+    >
+    > <del>POJ 1426</del>	
+    >
+    > <del>POJ 3126</del>
+    >
+    > POJ 3414
+    >
+    > POJ 2251
 
 
 ## :star:*READ*
@@ -50,6 +74,10 @@
   * 最长递增子序列(LIS)
   * 最长公共子序列(LCS)
 * 最短路  :small_airplane:
+  * Floyd
+  * Dijkstra
+  * Bellman-Ford
+  * SPFA
 * 并查集  :small_airplane:
 * BFS  :small_airplane: :small_airplane:
 * DFS  :small_airplane:
@@ -60,6 +88,7 @@
 
 * 闰年：能被4整除且不能被100整数；能被400整除
 * 使用BIT时需要特别注意，当*idx*为0时*update*会陷入死循环
+* 滚动数组
 
 ## :kissing_smiling_eyes:Key
 
