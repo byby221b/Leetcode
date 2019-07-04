@@ -61,11 +61,11 @@
     >
     > <span style="color:red">POJ 1011</span>（搜索+剪枝）
     >
-    > POJ 1416
+    > <del>POJ 1416</del>
     >
-    > POJ 2676
+    > <del>POJ 2676</del>
     >
-    > POJ 1129
+    > <del>POJ 1129</del>:grey_question:
 
 
 ## :star:*READ*
@@ -104,10 +104,19 @@
 * 使用BIT时需要特别注意，当*idx*为0时*update*会陷入死循环
 * 滚动数组
 
+## :grey_question:Problem
+
+* 图着色问题与最大团是否等价？（仿佛有个反例）
+
+  A-B B-C C-D D-E E-A
+
 ## :kissing_smiling_eyes:Key
 
 * POJ 1018
+
 * POJ 1837
+
+  
 
 
 

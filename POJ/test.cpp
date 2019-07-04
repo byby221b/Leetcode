@@ -9,13 +9,16 @@ int main(){
 	
 //	int data[5] = {-1,2,4,6,8};
 //	cout << lower_bound(data,data+5,3) - data << endl;
-	string a = "hello"	;
-	string b = a;
+	string test;
+	getline(cin,test);
 	
-	reverse(b.begin(),b.end());
+	string::iterator it = test.begin() + 2;
 	
-	cout << "a:\t" << a << endl;
-	cout << "b:\t" << b << endl;
+	while(it!=test.end()){
+		cout << ">>> " << *it << endl;
+		it ++;
+	}
+	
 	
 	return 0;
 }
