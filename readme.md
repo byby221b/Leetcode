@@ -49,9 +49,23 @@
     >
     > <del>POJ 3126</del>
     >
-    > POJ 3414
+    > <del>POJ 3414</del>
     >
-    > POJ 2251
+    > <del>POJ 2251</del>
+  
+  * 简单搜索技巧和剪枝
+  
+    > <del>POJ 1010</del> :star:
+    >
+    > <span style="color:red">POJ 2362</span>
+    >
+    > <span style="color:red">POJ 1011</span>（搜索+剪枝）
+    >
+    > POJ 1416
+    >
+    > POJ 2676
+    >
+    > POJ 1129
 
 
 ## :star:*READ*
