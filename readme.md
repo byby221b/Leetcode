@@ -66,6 +66,60 @@
     > <del>POJ 2676</del>
     >
     > <del>POJ 1129</del>:grey_question:
+  
+* 数据结构
+
+  * 串
+
+    > <del>POJ 1016</del>
+    >
+    > POJ 1035
+    >
+    > POJ 3080
+    >
+    > <del>POJ 1936</del>
+
+  * 排序
+
+    > <del>POJ 1007</del>
+    >
+    > POJ 2388
+    >
+    > POJ 1804
+    >
+    > <del>POJ 2299</del>
+
+  * 高效查找
+
+    > <del>POJ 1002</del>
+    >
+    > <span style="color:red">POJ 3349</span>
+    >
+    > <del>POJ 3274</del>
+    >
+    > POJ 1840
+    >
+    > POJ 2002
+    >
+    > POJ 3432
+    >
+    > POJ 2503
+
+  
+
+* 北大叉院2019
+
+  > POJ 1064
+  >
+  > POJ 1321
+  >
+  > 百练 3421
+  >
+  > 百练 4128 
+  >
+  > POJ 1185
+  >
+  > 
 
 
 ## :star:*READ*
@@ -115,6 +169,8 @@
 * POJ 1018
 
 * POJ 1837
+
+* POJ 3274
 
   
 
