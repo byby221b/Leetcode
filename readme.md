@@ -117,9 +117,41 @@
 
   * 图遍历（前序、中序、后序）
 
-    > POJ 2255
+    > <del>POJ 2255</del>
+    
+  * 最短路（Bellman-Ford/SPFA/Dijkstra）
 
-  
+    > <del>POJ 1860</del>
+    >
+    > <del>POJ 3259</del>
+    >
+    > <del>POJ 1062</del>
+    >
+    > POJ 2253
+    >
+    > POJ 1125
+    >
+    > POJ 2240
+
+  * 最小生成树(Prime)
+
+    > <del>POJ 1789</del>
+    >
+    > <del>POJ 2485</del>
+    >
+    > <del>POJ 1258</del>
+    >
+    > POJ 3026
+    
+  * 拓扑排序(Kahn)
+
+    > <del>POJ 1094</del>
+
+  * 二分图的最大匹配:ghost:(<u>不够熟练</u>)
+
+    > <del>POJ 3041</del>
+    >
+    > POJ 3020
 
 * 北大叉院2019
 
@@ -158,13 +190,16 @@
 * 最短路  :small_airplane:
   * Floyd
   * Dijkstra
-  * Bellman-Ford
+  * Bellman-Ford(检查出的是包含源点的负环还是所有负环？)
   * SPFA
 * 并查集  :small_airplane:
 * BFS  :small_airplane: :small_airplane:
 * DFS  :small_airplane:
 * 贪心  :small_airplane:
 * 二叉树遍历  :small_airplane:
+* 输入输出整理
+  * long long 
+  * double
 
 ## :artificial_satellite:Knowledge
 
@@ -181,6 +216,10 @@
   > * 联通无向图存在欧拉路径的充要条件：度数为奇数的结点的数目等于0或2
   > * 联通无向图存在欧拉回路的充要条件：每个结点的度数均为偶数
   > * 联通有向图可以表示为一条从u到v的欧拉路径的充要条件：u的出度比入度多1，v的出度比入度少1，其他结点的出度和入度相等
+  
+* 拓扑排序
+
+  * *Kahn*算法（前驱结点法）
 
 ## :grey_question:Problem
 
