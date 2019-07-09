@@ -1,19 +1,12 @@
-#include <iostream>
+#include <math.h>
 #include <algorithm>
-#include <string> 
-
+#include <iostream>
 using namespace std;
 
 
 int main(){
-	
-//	int data[5] = {-1,2,4,6,8};
-//	cout << lower_bound(data,data+5,3) - data << endl;
-	
-	char buf[15];
-	while(scanf("%s",buf)!=EOF){
-		printf("%s\n",buf);
-	}
+	double a = sqrt(1-2);
+	cout << a << endl;
 	
 	return 0;
 }

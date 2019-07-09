@@ -151,7 +151,33 @@
 
     > <del>POJ 3041</del>
     >
-    > POJ 3020
+    > <del>POJ 3020</del>
+    
+  * 最大流
+
+    > POJ 1459
+    >
+    > POJ 3436
+
+* 基本算法
+
+  * 枚举
+
+    > <del>POJ 1753</del>
+    >
+    > POJ 2965
+
+  * 贪心
+
+    > <del>POJ 1328 </del>
+    >
+    > POJ 2586
+
+  * 构造法
+
+    > <del>POJ 3295</del>
+    >
+    > POJ 3239
 
 * 北大叉院2019
 
@@ -198,8 +224,8 @@
 * 贪心  :small_airplane:
 * 二叉树遍历  :small_airplane:
 * 输入输出整理
-  * long long 
-  * double
+  * long long ("%lld")
+  * double("%lf")
 
 ## :artificial_satellite:Knowledge
 
@@ -209,7 +235,7 @@
 
 * 滚动数组
 
-* <span style="color:red">有整数求和操作时注意是否需要使用long long !!!</span>
+* <span style="color:red">有整数求和操作时注意是否需要使用long long !!! 有double时一定要小心不要将其赋给整形变量</span>
 
 * 欧拉图（一笔画问题）
 
@@ -220,6 +246,22 @@
 * 拓扑排序
 
   * *Kahn*算法（前驱结点法）
+  
+* 二分图
+
+  * 判定
+    * 黑白染色
+  * 最大匹配
+    * 匈牙利算法
+  * 最小点覆盖
+    * 求出一个最小的点集，使得图中任意一条边至少有一个端点属于点集
+    * 最小点覆盖包含的点数=最大匹配包含的边数
+  * 最大独立集
+    * 任意两点之间都没有边相连的点集
+    * 二分图最大独立集包含的点数=二分图的总点数-二分图的最大匹配数
+  * 最小边覆盖
+    * 选出尽量少的边，使得每个点至少是一条选出的边的端点
+    * 最小边覆盖的边数=二分图总点数-二分图的最大匹配数
 
 ## :grey_question:Problem
 
@@ -237,7 +279,9 @@
 
 * POJ 2513
 
-  
+## :star2:Star
+
+* https://github.com/flyhero99/BaoYanJiShi
 
 
 
