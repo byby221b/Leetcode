@@ -28,6 +28,10 @@
 	  > <del>POJ 2533</del>
 	  >
 	  > <del>POJ 1836</del>
+	  >
+	  > <del>Leetcode 70</del>
+	  >
+	  > <del>Leetcode 309</del>
 	
 * 搜索
 
@@ -112,6 +116,16 @@
   * trie树
 
     > <del>POJ 2513</del>
+    
+  * 双指针
+
+    > <del>Leetcode 15</del>
+
+  * 二叉树
+
+    > <del>Leetcode 94</del>
+    >
+    > <del>Leetcode 102</del>
 
 * 图算法
 
@@ -208,6 +222,8 @@
     > POJ 2602
     >
     > POJ 3982
+    >
+    > <del>Leetcode 2</del>
 
 * 北大叉院2019
 
