@@ -126,6 +126,14 @@
     > <del>Leetcode 94</del>
     >
     > <del>Leetcode 102</del>
+    
+  * 哈希
+
+    > <del>Leetcode 454</del>
+
+  * 栈
+
+    > <del>Leetcode 227</del>
 
 * 图算法
 
@@ -339,6 +347,7 @@
 ## :star2:Star
 
 * https://github.com/flyhero99/BaoYanJiShi
+* [Leetcode题解](https://github.com/azl397985856/leetcode)
 
 
 
