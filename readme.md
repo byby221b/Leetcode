@@ -126,6 +126,8 @@
     > <del>Leetcode 94</del>
     >
     > <del>Leetcode 102</del>
+    >
+    > <del>Leetcode 124</del>（dfs）
     
   * 哈希
 
@@ -328,7 +330,10 @@
 ## :pick:Skill
 
 * 化归策略
-  * POJ 1014 判断sum是否平分，转换为是否可以将物品放到sum/2的背包中	
+  * POJ 1014 判断sum是否平分，转换为是否可以将物品放到sum/2的背包中
+
+* 位运算技巧
+  * n&(n-1) 将n的最后一个1变为0
 
 ## :grey_question:Problem
 
