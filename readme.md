@@ -203,6 +203,10 @@
     >
     > POJ 3239
 
+  * 分治法
+
+    > <del>Leetcode 395</del>
+
   * 模拟法
 
     > <del>POJ 1008</del>
