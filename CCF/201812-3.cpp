@@ -4,6 +4,7 @@
 	Author: 
 	Date: 09/09/19 11:00
 	Description: 只排序，未考虑合并，通过测试点6/10
+				目前通过测试点7/10 
 */
 
 
@@ -97,6 +98,54 @@ void readIP(IP *root,int n){
 	
 }
 
+void mergeIP(IP *root){
+	IP *ptr = root->next;
+	IP *tmp;
+	while(ptr && ptr->next){
+		unsigned int mask = (0xffffffff) << (32 - (ptr->len));
+		if(((ptr->next->value)&mask)==(ptr->value)){
+			tmp = ptr->next;
+			ptr->next = ptr->next->next;
+			delete tmp;
+		}else{
+			ptr = ptr->next;
+		}
+	}
+	
+	IP *prePtr;
+	ptr = root->next;
+	while(ptr && (ptr->next)){
+		if((ptr->len)&&(ptr->next->len)){
+			unsigned int mask;
+			if((ptr->len) > 1){
+				 mask = (0xffffffff) << (32 - (ptr->len) +1);
+			}else{
+				mask = 0;
+			}
+			
+
+			unsigned int pv = ptr->value;
+			unsigned int nv = ptr->next->value;
+			if((pv!=nv)&&((pv&mask)==(nv&mask))){
+				(ptr->len) -= 1;
+				ptr->value = pv & mask;
+				
+				IP *tmp = ptr->next;
+				ptr->next = ptr->next->next;
+				delete tmp;
+				
+				prePtr = root;
+				while(prePtr->next != ptr) prePtr = prePtr->next;
+				if(prePtr!=root) ptr = prePtr;
+			}else{
+				ptr = ptr->next;
+			}
+		}else{
+				ptr = ptr->next;
+		}
+	}
+}
+
 int main(){
 	int n;
 	scanf("%d",&n);
@@ -104,6 +153,8 @@ int main(){
 	root = new IP(-1,-1);
 	fgets(buf,1024,stdin);
 	readIP(root,n);
+	mergeIP(root);
+	
 	
 	IP *iptr = root;
 	while(iptr->next){
