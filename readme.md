@@ -108,6 +108,8 @@
     > POJ 3432
     >
     > POJ 2503
+    >
+    > <del>Leetcode 33</del>
     
   * 哈夫曼树、优先队列
 
@@ -363,6 +365,8 @@
 
 * https://github.com/flyhero99/BaoYanJiShi
 * [Leetcode题解](https://github.com/azl397985856/leetcode)
+* [Leetcode题解](https://www.cnblogs.com/grandyang/p/4606334.html)
+* [二分查找的总结](https://www.cnblogs.com/grandyang/p/6854825.html)
 
 
 
